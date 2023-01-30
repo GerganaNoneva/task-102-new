@@ -1,12 +1,9 @@
 import "./App.css";
-
 import React from 'react';
-//import { motion } from 'framer-motion';
 import {motion} from "framer-motion/dist/framer-motion"
 
 function App() {
   return (
-    <div className="App" id="root">
     <motion.form
       initial={{ x: '-200%' }}
       animate={{ x: '0%' }}
@@ -27,7 +24,6 @@ function App() {
       </form>
       }
     </motion.form>
-    </div>
   );
 };
 
