@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
     <motion.form
-      initial={{ x: '-100%' }}
-      animate={{ x: '50%' }}
-      style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)' }}
+      initial={{ x: '-200%' }}
+      animate={{ x: '-50%' }}
+      style={{ position: 'absolute', top: '15%', transform: 'translateY(0%)' }}
     >
       {/* Your form fields go here */
       <form>
