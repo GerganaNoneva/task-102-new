@@ -6,10 +6,10 @@ import {motion} from "framer-motion/dist/framer-motion"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="root">
     <motion.form
       initial={{ x: '-200%' }}
-      animate={{ x: '-50%' }}
+      animate={{ x: '0%' }}
       style={{ position: 'absolute', top: '15%', transform: 'translateY(0%)' }}
     >
       {/* Your form fields go here */
